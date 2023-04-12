@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_card_client_cards",
+  "info": {
+    "displayName": "ClientCard"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "position": {
+      "type": "string"
+    }
+  }
+}
